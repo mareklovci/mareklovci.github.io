@@ -49,18 +49,38 @@ projects:
 topics:
   # - name: Web design
 
-  - name: R
-    web_url: https://github.com/topics/r
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png
+  - name: Django
+    web_url: https://github.com/topics/django
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png
+
+  - name: Flask
+    web_url: https://github.com/topics/flask
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png
+
+  - name: LaTeX
+    web_url: https://github.com/topics/latex
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/latex/latex.png
+
+  - name: MATLAB
+    web_url: https://github.com/topics/matlab
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/matlab/matlab.png
+
+  # - name: Power BI
+  #   web_url: https://github.com/topics/powerbi
+  #   image_url: https://avatars0.githubusercontent.com/u/9753375?s=200&v=4
 
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/python/python.png
 
+  - name: R
+    web_url: https://github.com/topics/r
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png
+
   - name: scikit-learn
     web_url: https://github.com/topics/scikit-learn
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scikit-learn/scikit-learn.png
 
-  - name: LaTeX
-    web_url: https://github.com/topics/latex
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/latex/latex.png
+  - name: Vue.js
+    web_url: https://github.com/topics/vue
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png
