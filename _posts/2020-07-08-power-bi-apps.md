@@ -11,7 +11,7 @@ Aplikace mohou obsahovat několik řídících panelů (*dashboards*) a několik
 Vezměme si příklad, kdy vedení organizace potřebuje přístup na řídící panel s přehledem KPI (*key performance indicators*), zároveň ale potřebuje i přehled zaměstnanců a jejich vytíženosti, což vyžaduje i personální oddělení.
 Do toho obchodní oddělení vyžaduje přehled prodejnosti zboží na jednotlivých pobočkách včetně detailních pohledů a vizualizací.
 
-![Záložka pro náhled instalovaných aplikací v Power BI](./images/power-bi-apps/power-bi-apps-01.png)
+![Záložka pro náhled instalovaných aplikací v Power BI](/images/power-bi-apps/power-bi-apps-01.png)
 
 V Power BI je všechna zmiňovaná data možné zpřístupnit za pomocí udělení práv uživatelům na **pracovní prostor**, kde jsou dané vizualizace vytvořeny.
 To však nemusí být praktické vzhledem ke složitější správě práv (prohlížení dat vs úprava dat) jednotlivých uživatelů a uživatelských skupin.
@@ -20,7 +20,7 @@ Microsoft tento problém vyřešil vyčleněním aplikací jako samostatných ko
 
 Aplikace lze distribuovat v rámci celé organizace, jednotlivým lidem nebo organizačním skupinám.
 
-![Záložka pro náhled seznamu dostupných aplikací v Power BI](./images/power-bi-apps/power-bi-apps-02.png)
+![Záložka pro náhled seznamu dostupných aplikací v Power BI](/images/power-bi-apps/power-bi-apps-02.png)
 
 ## FAQ
 
