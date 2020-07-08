@@ -1,7 +1,6 @@
 ---
 title: "Power BI aplikace"
 published: true
-tags: "CCA Group a.s.", "Power BI", "data analysis"
 ---
 
 Aplikace v Power BI je druh obsahu a způsob prezentace dat koncovým uživatelům.
