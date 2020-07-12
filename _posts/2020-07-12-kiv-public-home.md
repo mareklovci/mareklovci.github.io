@@ -1,5 +1,5 @@
 ---
-title: "Výměna datového zdroje v Power BI"
+title: "Nasazení webové aplikace na servery KIV"
 published: true
 ---
 
@@ -150,3 +150,7 @@ Naplníme databázi daty.
 ```sh
 php artisan db:seed
 ```
+
+## Závěr
+
+Aplikace je dostupná na adrese `http://students.kiv.zcu.cz/~lovcim/`.
