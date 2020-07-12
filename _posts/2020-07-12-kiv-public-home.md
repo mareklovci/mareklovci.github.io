@@ -105,8 +105,8 @@ REDIS_PORT=6379
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.mailtrap.io
 MAIL_PORT=2525
-MAIL_USERNAME=d1eae987fe913e
-MAIL_PASSWORD=d109bc15f3dc66
+MAIL_USERNAME=
+MAIL_PASSWORD=
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=kaplicky@students.kiv.zcu.cz
 MAIL_FROM_NAME="${APP_NAME}"
@@ -153,4 +153,7 @@ php artisan db:seed
 
 ## Závěr
 
-Aplikace je dostupná na adrese `http://students.kiv.zcu.cz/~lovcim/`.
+Aplikace by měla být dostupná na adrese `http://students.kiv.zcu.cz/~lovcim/`.
+Jeden problém je ten, že dostupná není přes to, že instalace aplikace doběhla, druhý problém je ten, že z nějakého důvodu neproběhla migrace.
+Skript se spustí, ale ani po dlouhém čekání se nic neděje.
+V aplikaci nejsou data, pro prezentaci tudíž naprosto nevhodné.
