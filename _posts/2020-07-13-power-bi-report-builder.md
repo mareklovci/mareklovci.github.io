@@ -45,7 +45,21 @@ Kdybychom se pokusili vzít data rovnou ve takové formě, kterou dostaneme z DA
 
 - [ ] TODO
 
+## Kompilace dotazu
+
+- [ ] TODO
+
+## Nahrání na server Power BI
+
+Pro nahrání stránkovaného reportu na servery Power BI je v době psaní tohoto článku potřeba prémiového účtu a volné dedikované kapacity - aby mohl server kompilovat dotazy z reportu.
+Celý postup je zdokumetovaný [zde](https://docs.microsoft.com/en-us/power-bi/paginated-reports/paginated-reports-save-to-power-bi-service), sám ho kvůli nevoli k placení dalších režijních poplatků rozebírat nebudu.
+
 ## Závěr
+
+Ačkoliv by se nástroj doplňující funkcionalitu standardních reportů o možnost vytvářet dokumenty s plnými pohledy na data hodil, tak kvůli nezbytné komplexitě vzniklé nutností dolováním DAX dotazů z již vytvořených vizualizací a jejich následnému znovuvytváření ze surových dat je nástrojem zcela nevhodným.
+Nehledě na finanční náklady pro umožnění sdílet reporty přes webovou aplikaci Power BI.
+
+Z těchto důvodů používání Power BI Report Builder nedoporučuji.
 
 ## Zdroje
 
