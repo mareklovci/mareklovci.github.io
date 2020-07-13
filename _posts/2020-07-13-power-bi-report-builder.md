@@ -61,6 +61,11 @@ Nehledě na finanční náklady pro umožnění sdílet reporty přes webovou ap
 
 Z těchto důvodů používání Power BI Report Builder nedoporučuji.
 
+## DAX Studio
+
+DAX Studio je open-source nástroj pro analýzu a zkoušení DAX dotazů.
+Je dostupný ke stažení na stránkách https://daxstudio.org/.
+
 ## Zdroje
 
 1. [Create a paginated report based on a Power BI shared dataset][01]
