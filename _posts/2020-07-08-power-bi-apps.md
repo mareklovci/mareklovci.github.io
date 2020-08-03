@@ -41,6 +41,13 @@ Jestliže je však aktuálnost dat závislá na obnově datového zdroje, pak bu
 Ve verzi Power BI aktuální k datu psaní tohoto článku je možné vytvořit pouze jednu aplikaci z pracovního prostoru.
 Zkazky na forech k Power BI naznačují, že v budoucnu bude možné vytvářet z jednoho pracovního prostoru aplikací více.
 
+## Zdroje
+
+1. [Aplikace v Power BI][01]
+2. [Distribute to large audiences with Power BI apps][02]
+3. [Data refresh in Power BI][03]
+4. [Automatic page refresh in Power BI Desktop][04]
+
 [01]: https://docs.microsoft.com/cs-cz/power-bi/consumer/end-user-apps
 [02]: https://powerbi.microsoft.com/en-us/blog/distribute-to-large-audiences-with-power-bi-apps/
 [03]: https://docs.microsoft.com/en-us/power-bi/connect-data/refresh-data
