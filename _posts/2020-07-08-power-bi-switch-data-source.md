@@ -39,5 +39,10 @@ Pro aplikování změn klikněte na tlačítko **Aktualizovat**, změny v modelu
 Možnost vyměnit zdroj dat je velice důležitá funcionalita, jejíž absence by mohla způsobovat mnoho problémů.
 Současné řešení není zrovna flexibilní, jelikož zdroj dat musí být nahrán do webové aplikace Power BI a možnost přepnutí je omezena pouze na desktopovou aplikaci.
 
+## Zdroje
+
+1. [How To Change Data Source Of Existing Report In Power BI][01]
+2. [How to change data source in Power BI][02]
+
 [01]: https://www.c-sharpcorner.com/article/how-to-change-data-source-of-existing-report-in-power-bi/
 [02]: https://windowsreport.com/change-data-source-power-bi/
