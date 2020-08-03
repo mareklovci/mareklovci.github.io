@@ -7,10 +7,6 @@ published: false
 
 ## Zdroje
 
-1. [Create a paginated report based on a Power BI shared dataset][01]
-2. [Stránkované sestavy][02]
-3. [Microsoft Power BI: Designing Professional Paginated Reports with Report Builder][03]
+1. [Measure Tables in Power BI][01]
 
-[01]: https://docs.microsoft.com/en-us/power-bi/paginated-reports/report-builder-shared-datasets
-[02]: https://docs.microsoft.com/cs-cz/power-bi/paginated-reports/report-builder-power-bi
-[03]: https://youtu.be/uHWfzPls50c
+[01]: https://exceleratorbi.com.au/measure-tables-in-power-bi/
