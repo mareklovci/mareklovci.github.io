@@ -1,6 +1,6 @@
 ---
 title: "Tabulka měr v Power BI"
-published: false
+published: true
 ---
 
 ## Tabulka měr
