@@ -33,8 +33,24 @@ Jak po rozdělení vyměnit datový zdroj sestavy popisuje [Výměna datového z
 
 O vytvoření Power BI aplikací pojednává článek [Power BI aplikace](https://mareklovci.github.io/2020/07/08/power-bi-apps/).
 
+### 7. Statistiky
+
+Jak získat statistiky využívanosti jenotlivých sestav popisuje článek [Statistiky Power BI](power-bi-report-statistics).
+
 ## Další informace
 
 Fyzické vs virtuální relace – [Physical and Virtual Relationships in DAX](https://sql.bi/30141).
 
 Integrace Power BI a JIRA – [How to Set up a Power BI Jira Integration: The Complete 2020 Guide](https://www.idalko.com/power-bi-jira/).
+
+Power BI šablony – [Power BI Templates](https://www.powerbitutorial.org/tutorials/power-bi-templates/).
+
+## Nástroje
+
+### [VertiPaq Analyzer](https://sql.bi/vertipaqanalyzer/)
+
+Návod: [Data Model Size with VertiPaq Analyzer](https://sql.bi/23381)
+
+
+
+
