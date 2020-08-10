@@ -8,13 +8,21 @@ Workflow se skládá z následujících kroků.
 
 ## 1. Založení PBIX souboru
 ## 2. Vytvoření modelu
+
+O modelování jako takovém pojednává článek [Dimenzionální modelování a Power BI]().
+O vytváření časové dimenze je článek [Tabulka časové dimenze v Power BI]().
+
 ## 3. Vytvoření sestav (report)
+
+Jak v reportu zobrazit datum poslední aktualizace datasetu popisuje [Datum aktualizace Power BI]().
+Na zmíněný článek navazuje [Tabulka měr Power BI]().
+
 ## 4. Rozdělení PBIX na model.PBIX a sestavu.PBIX
+
+Rozdělení PBIX souboru na model a sestavy popisuje článek [Rozdělení Power BI na model a report]().
+Jak po rozdělení vyměnit datový zdroj sestavy popisuje [Výměna datového zdroje v Power BI](https://mareklovci.github.io/2020/07/08/power-bi-switch-data-source/).
+
 ## 5. Upload
 ## 6. Aplikace
 
-## Zdroje
-
-1. [Measure Tables in Power BI][01]
-
-[01]: https://exceleratorbi.com.au/measure-tables-in-power-bi/
+O vytvoření Power BI aplikací pojednává článek [Power BI aplikace](https://mareklovci.github.io/2020/07/08/power-bi-apps/).
