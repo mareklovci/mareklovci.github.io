@@ -36,3 +36,5 @@ O vytvoření Power BI aplikací pojednává článek [Power BI aplikace](https:
 ## Další informace
 
 Fyzické vs virtuální relace – [Physical and Virtual Relationships in DAX](https://sql.bi/30141).
+
+Integrace Power BI a JIRA – [How to Set up a Power BI Jira Integration: The Complete 2020 Guide](https://www.idalko.com/power-bi-jira/).
