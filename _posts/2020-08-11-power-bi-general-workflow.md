@@ -3,7 +3,7 @@ title: "Power BI Workflow"
 published: true
 ---
 
-Tento návod slouží jako rozcestník pro celé workflow vytváření Power BI modelů, sestav a aplikací.
+Tento článek slouží jako rozcestník pro celé workflow vytváření Power BI modelů, sestav a aplikací.
 Workflow se skládá z následujících kroků.
 
 ## Workflow
@@ -16,6 +16,8 @@ O modelování jako takovém pojednává článek [Dimenzionální modelování 
 O vytváření časové dimenze je článek [Tabulka časové dimenze v Power BI](https://mareklovci.github.io/2020/08/10/power-bi-date-table/).
 
 Připojení souboru Excel do datového setu popisuje [Excel jako zdroj Power BI]().
+
+[Certifikace datasetu](https://mareklovci.github.io/2020/08/08/power-bi-certify-dataset/).
 
 ### 3. Vytvoření sestav (report)
 
