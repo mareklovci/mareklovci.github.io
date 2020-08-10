@@ -1,18 +1,19 @@
 ---
-title: "Postup práce s Power BI"
-published: false
+title: "Power BI Workflow"
+published: true
 ---
 
 Tento návod slouží jako rozcestník pro celé workflow vytváření Power BI modelů, sestav a aplikací.
 Workflow se skládá z následujících kroků.
 
 ## Workflow
+
 ### 1. Založení PBIX souboru
 ### 2. Vytvoření modelu
 
 O modelování jako takovém pojednává článek [Dimenzionální modelování a Power BI]().
 
-O vytváření časové dimenze je článek [Tabulka časové dimenze v Power BI]().
+O vytváření časové dimenze je článek [Tabulka časové dimenze v Power BI](https://mareklovci.github.io/2020/08/10/power-bi-date-table/).
 
 Připojení souboru Excel do datového setu popisuje [Excel jako zdroj Power BI]().
 
@@ -50,7 +51,3 @@ Power BI šablony – [Power BI Templates](https://www.powerbitutorial.org/tutor
 ### [VertiPaq Analyzer](https://sql.bi/vertipaqanalyzer/)
 
 Návod: [Data Model Size with VertiPaq Analyzer](https://sql.bi/23381)
-
-
-
-
