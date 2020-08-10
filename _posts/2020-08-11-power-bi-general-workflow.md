@@ -12,7 +12,7 @@ Workflow se skládá z následujících kroků.
 
 ### 2. Vytvoření modelu
 
-O modelování jako takovém pojednává článek [Dimenzionální modelování a Power BI]().
+O modelování jako takovém pojednává článek [Dimenzionální modelování a Power BI](https://mareklovci.github.io/2020/08/07/power-bi-dimensional-modeling/).
 
 O vytváření časové dimenze je článek [Tabulka časové dimenze v Power BI](https://mareklovci.github.io/2020/08/10/power-bi-date-table/).
 
@@ -22,7 +22,7 @@ Připojení souboru Excel do datového setu popisuje [Excel jako zdroj Power BI]
 
 ### 3. Vytvoření sestav (report)
 
-Jak v reportu zobrazit datum poslední aktualizace datasetu popisuje [Datum aktualizace Power BI]().
+Jak v reportu zobrazit datum poslední aktualizace datasetu popisuje [Datum aktualizace dat Power BI](https://mareklovci.github.io/2020/08/03/power-bi-last-refresh-date/).
 
 Na zmíněný článek navazuje [Tabulka měr Power BI]().
 
