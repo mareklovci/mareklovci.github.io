@@ -9,6 +9,7 @@ Workflow se skládá z následujících kroků.
 ## Workflow
 
 ### 1. Založení PBIX souboru
+
 ### 2. Vytvoření modelu
 
 O modelování jako takovém pojednává článek [Dimenzionální modelování a Power BI]().
@@ -32,6 +33,7 @@ Rozdělení PBIX souboru na model a sestavy popisuje článek [Rozdělení Power
 Jak po rozdělení vyměnit datový zdroj sestavy popisuje [Výměna datového zdroje v Power BI](https://mareklovci.github.io/2020/07/08/power-bi-switch-data-source/).
 
 ### 5. Upload
+
 ### 6. Aplikace
 
 O vytvoření Power BI aplikací pojednává článek [Power BI aplikace](https://mareklovci.github.io/2020/07/08/power-bi-apps/).
@@ -53,3 +55,9 @@ Power BI šablony – [Power BI Templates](https://www.powerbitutorial.org/tutor
 ### [VertiPaq Analyzer](https://sql.bi/vertipaqanalyzer/)
 
 Návod: [Data Model Size with VertiPaq Analyzer](https://sql.bi/23381)
+
+## Zdroje
+
+1. [Power BI External Tools: Reading the Tea Leaves][01]
+
+[01]: https://sqlserverbi.blog/2020/07/19/power-bi-external-tools-reading-the-tea-leaves/
