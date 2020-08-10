@@ -4,7 +4,11 @@ title: "Postup práce s Power BI"
 published: false
 ---
 
-
+1. Založení PBIX
+2. Vytvoření modelu
+3. Vytvoření sestav (report)
+4. Rozdělení PBIX na model.PBIX a sestavu.PBIX
+5. Upload
 
 ## Zdroje
 
