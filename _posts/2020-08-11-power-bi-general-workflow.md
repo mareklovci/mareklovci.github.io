@@ -24,11 +24,11 @@ Připojení souboru Excel do datového setu popisuje [Excel jako zdroj Power BI]
 
 Jak v reportu zobrazit datum poslední aktualizace datasetu popisuje [Datum aktualizace dat Power BI](https://mareklovci.github.io/2020/08/03/power-bi-last-refresh-date/).
 
-Na zmíněný článek navazuje [Tabulka měr Power BI]().
+Na zmíněný článek navazuje [Tabulka měr Power BI](https://mareklovci.github.io/2020/08/03/power-bi-measure-table/).
 
 ### 4. Rozdělení PBIX na model a sestavu
 
-Rozdělení PBIX souboru na model a sestavy popisuje článek [Rozdělení Power BI na model a report]().
+Rozdělení PBIX souboru na model a sestavy popisuje článek [Rozdělení Power BI na model a report](https://mareklovci.github.io/2020/08/09/power-bi-split/).
 
 Jak po rozdělení vyměnit datový zdroj sestavy popisuje [Výměna datového zdroje v Power BI](https://mareklovci.github.io/2020/07/08/power-bi-switch-data-source/).
 
