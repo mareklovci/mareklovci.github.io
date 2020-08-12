@@ -12,6 +12,7 @@ Při nasazování aplikace (PHP + Laravel) jsem postupoval následujícím způs
 ## Prerekvizity
 
 Prerekvizitou je, že projekt generuje html soubory do složky `public_html`, generovat je do složky `public` nestačí.
+V mém případě pro Laravel 7.x jsem postupoval dle tohoto návodu https://medium.com/@pixelvars/laravel-change-public-html-to-public-html-the-right-way-496431aed94.
 
 ## Přístup na server
 
