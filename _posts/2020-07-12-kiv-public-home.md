@@ -101,9 +101,8 @@ php artisan db:seed
 ## Závěr
 
 Aplikace by měla být dostupná na adrese `http://students.kiv.zcu.cz/~lovcim/`.
-Jeden problém je ten, že se mi nedaří přinutit Laravel aby generoval html do složky `public_html` místo původní složky `public`.
+Jeden problém je ten, aplikace hlásí 500 error.
 Druhý problém je ten, že z nějakého důvodu se nedokončí migrace a musí být tedy ručně ukončena.
-Prezentace stále nefunguje.
 
 ### V případě neexistence konfiguračního souboru
 
