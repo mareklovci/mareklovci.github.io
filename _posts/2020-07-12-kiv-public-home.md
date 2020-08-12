@@ -104,65 +104,22 @@ Aplikace by měla být dostupná na adrese `http://students.kiv.zcu.cz/~lovcim/`
 Jeden problém je ten, aplikace hlásí 500 error.
 Druhý problém je ten, že z nějakého důvodu se nedokončí migrace a musí být tedy ručně ukončena.
 
-### V případě neexistence konfiguračního souboru
-
-Všechny soubory ve složce zobrazíme pomocí příkazu `ls -a`.
-V případě, že chybí soubor `.env`, tak ho musíme vytvořit ručně.
-
-```sh
-touch .env
-```
-
-Zkopírovat obsah původního souboru do nově vytvořeného pomocí editoru *vim* `vim .env`.
-
-```
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=base64:eko5rHfrbQCv2hHl8aT4FnKC+EjC/JJG6mKqbzmZFhM=
-APP_DEBUG=false
-APP_URL=http://students.kiv.zcu.cz/~lovcim/
-
-LOG_CHANNEL=stack
-
-DB_CONNECTION=sqlite
-
-BROADCAST_DRIVER=log
-CACHE_DRIVER=file
-QUEUE_CONNECTION=sync
-SESSION_DRIVER=file
-SESSION_LIFETIME=120
-
-REDIS_HOST=127.0.0.1
-REDIS_PASSWORD=null
-REDIS_PORT=6379
-
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=
-MAIL_PASSWORD=
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=kaplicky@students.kiv.zcu.cz
-MAIL_FROM_NAME="${APP_NAME}"
-
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_DEFAULT_REGION=us-east-1
-AWS_BUCKET=
-
-PUSHER_APP_ID=
-PUSHER_APP_KEY=
-PUSHER_APP_SECRET=
-PUSHER_APP_CLUSTER=mt1
-
-MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
-MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
-```
-
 ### Pomůcky
 
 *Odstranění souborů ve složce se zachováním složky samotné*
 
 ```sh
 rm -rfv public-kiv/*
+```
+
+*Vytvoření nového souboru*
+
+```sh
+touch .env
+```
+
+*Zobrazení všech (i skrytých) souborů ve složce*
+
+```sh
+Všechny soubory ve složce zobrazíme pomocí příkazu `ls -a`.
 ```
