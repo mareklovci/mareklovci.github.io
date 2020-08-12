@@ -100,9 +100,9 @@ php artisan db:seed
 ## Závěr
 
 Aplikace by měla být dostupná na adrese `http://students.kiv.zcu.cz/~lovcim/`.
-Jeden problém je ten, že dostupná není přes to, že instalace aplikace doběhla.
+Jeden problém je ten, že se mi nedaří přinutit Laravel aby generoval html do složky `public_html` místo původní složky `public`.
 Druhý problém je ten, že z nějakého důvodu se nedokončí migrace a musí být tedy ručně ukončena.
-V aplikaci nejsou data, pro prezentaci tudíž naprosto nevhodné.
+Prezentace stále nefunguje.
 
 ### V případě neexistence konfiguračního souboru
 
