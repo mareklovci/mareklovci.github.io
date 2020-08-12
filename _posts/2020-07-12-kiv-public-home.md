@@ -9,6 +9,10 @@ Rozcestník a seznam podporovaných technologií je dostupný na adrese http://s
 
 Při nasazování aplikace (PHP + Laravel) jsem postupoval následujícím způsobem.
 
+## Prerekvizity
+
+Prerekvizitou je, že projekt generuje html soubory do složky `public_html`, generovat je do složky `public` nestačí.
+
 ## Přístup na server
 
 Pro přístup na server je nutné použít SSH.
@@ -20,12 +24,6 @@ ssh <orion-login>@students.kiv.zcu.cz
 Po vyzvání je nutné zadat orion heslo náležící k účtu.
 Po správném zadání je uživatel přihlášen na server.
 
-Přesuneme se do složky `public_kiv`.
-
-```sh
-cd public_kiv
-```
-
 ## Zkopírování projektu
 
 Projekt, který je potřeba vystavit je hostován na službě GitLab.
@@ -34,10 +32,10 @@ Projekt, který je potřeba vystavit je hostován na službě GitLab.
 git clone https://gitlab.kiv.zcu.cz/aswi/aswi-2020/aswi2020merlot.git
 ```
 
-Následně přesuneme soubory z právě vytvořené složky do složky `public_html`.
+Následně přesuneme soubory z právě vytvořené složky do složky `public-kiv`.
 
 ```sh
-mv -v aswi2020merlot/* public_html/
+mv -v aswi2020merlot/* public-kiv/
 ```
 
 Odstraníme prázdnou složku.
@@ -46,7 +44,7 @@ Odstraníme prázdnou složku.
 rm -rf aswi2020merlot/
 ```
 
-## Instalalce projektu
+## Instalace projektu
 
 Následně budu vycházet z postupu uvedeného v článku [How to Setup a Laravel Project You Cloned from Github.com](https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/).
 
@@ -73,13 +71,49 @@ Obvykle by se použil příkaz `composer install`, my však musíme použít jeh
 php composer.phar install
 ```
 
-Bohužel se z nějakého důvodu nestáhly skryté soubory, musím tedy vytvořit konfigurační soubor ručně.
+V konfiguračním souboru jsme definovali připojení do *sqlite* databáze, která však není dosud vytvořená.
+
+```sh
+cd database
+touch database.sqlite
+cd ..
+```
+
+Nyní je třeba vygenerovat šifrovací klíč.
+
+```sh
+php artisan key:generate
+```
+
+Zmigrujeme databázi.
+
+```sh
+php artisan migrate
+```
+
+Naplníme databázi daty.
+
+```sh
+php artisan db:seed
+```
+
+## Závěr
+
+Aplikace by měla být dostupná na adrese `http://students.kiv.zcu.cz/~lovcim/`.
+Jeden problém je ten, že dostupná není přes to, že instalace aplikace doběhla.
+Druhý problém je ten, že z nějakého důvodu se nedokončí migrace a musí být tedy ručně ukončena.
+V aplikaci nejsou data, pro prezentaci tudíž naprosto nevhodné.
+
+### V případě neexistence konfiguračního souboru
+
+Všechny soubory ve složce zobrazíme pomocí příkazu `ls -a`.
+V případě, že chybí soubor `.env`, tak ho musíme vytvořit ručně.
 
 ```sh
 touch .env
 ```
 
-A Zkopírovat obsah původního souboru do nově vytvořeného pomocí editoru *vim* `vim .env`.
+Zkopírovat obsah původního souboru do nově vytvořeného pomocí editoru *vim* `vim .env`.
 
 ```
 APP_NAME=Laravel
@@ -125,35 +159,10 @@ MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 ```
 
-V konfiguračním souboru jsme definovali připojení do *sqlite* databáze, která však není dosud vytvořená.
+### Pomůcky
+
+*Odstranění souborů ve složce se zachováním složky samotné*
 
 ```sh
-cd database
-touch database.sqlite
-cd ..
+rm -rfv public-kiv/*
 ```
-
-Nyní je třeba vygenerovat šifrovací klíč.
-
-```sh
-php artisan key:generate
-```
-
-Zmigrujeme databázi.
-
-```sh
-php artisan migrate
-```
-
-Naplníme databázi daty.
-
-```sh
-php artisan db:seed
-```
-
-## Závěr
-
-Aplikace by měla být dostupná na adrese `http://students.kiv.zcu.cz/~lovcim/`.
-Jeden problém je ten, že dostupná není přes to, že instalace aplikace doběhla, druhý problém je ten, že z nějakého důvodu neproběhla migrace.
-Skript se spustí, ale ani po dlouhém čekání se nic neděje.
-V aplikaci nejsou data, pro prezentaci tudíž naprosto nevhodné.
