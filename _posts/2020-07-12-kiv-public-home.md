@@ -66,18 +66,18 @@ php -r "unlink('composer-setup.php');"
 
 ### Instalace `composer` závislostí
 
-Obvykle by se použil příkaz `composer install`, my však musíme použít jeho modifikovanou verzi.
-
-```sh
-php composer.phar install
-```
-
 V konfiguračním souboru jsme definovali připojení do *sqlite* databáze, která však není dosud vytvořená.
 
 ```sh
 cd database
 touch database.sqlite
 cd ..
+```
+
+Obvykle by se použil příkaz `composer install`, my však musíme použít jeho modifikovanou verzi.
+
+```sh
+php composer.phar install
 ```
 
 Nyní je třeba vygenerovat šifrovací klíč.
